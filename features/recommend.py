@@ -68,6 +68,3 @@ def rec_also_like(itemid):
     for idx in rec:
         print(movies[movies["MovieID"] == idx+1].values[0])
 
-if __name__ == "__main__":
-    rating_movie(1, 1)
-

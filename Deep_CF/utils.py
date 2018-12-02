@@ -27,10 +27,10 @@ def get_tensors(loaded_graph):
     targets = loaded_graph.get_tensor_by_name("targets:0")
 
     # Method 1
-    inference = loaded_graph.get_tensor_by_name("inference/inference/BiasAdd:0")
+    #inference = loaded_graph.get_tensor_by_name("inference/inference/BiasAdd:0")
 
     # Method 2
-    # inference = loaded_graph.get_tensor_by_name("inference/ExpandDims:0")
+    inference = loaded_graph.get_tensor_by_name("inference/ExpandDims:0")
 
     movie_combine_layer_flat = loaded_graph.get_tensor_by_name("movie_fc/Reshape:0")
     user_combine_layer_flat = loaded_graph.get_tensor_by_name("user_fc/Reshape:0")

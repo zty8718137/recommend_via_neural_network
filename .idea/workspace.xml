@@ -14,7 +14,7 @@
     <SUITE FILE_PATH="coverage/CS6140_project$MF.coverage" NAME="MF Coverage Results" MODIFIED="1541991796391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS6140_project$train.coverage" NAME="train Coverage Results" MODIFIED="1543257679136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$CF.coverage" NAME="CF Coverage Results" MODIFIED="1542938035916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
-    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1543781470796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
+    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1543786843056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$MF__1_.coverage" NAME="MF (1) Coverage Results" MODIFIED="1542938322617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
     <SUITE FILE_PATH="coverage/CS6140_project$recommend.coverage" NAME="recommend Coverage Results" MODIFIED="1543783232165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
   </component>
@@ -40,7 +40,8 @@
           <entry key="checkpoint" value="3" />
           <entry key="csv" value="3" />
           <entry key="dat" value="4" />
-          <entry key="json" value="6" />
+          <entry key="json" value="7" />
+          <entry key="md" value="1" />
           <entry key="png" value="9" />
           <entry key="py" value="50" />
         </counts>
@@ -48,7 +49,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="9" />
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="7" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="50" />
         </counts>
@@ -57,28 +59,36 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="json" value="1" />
-          <entry key="py" value="8811" />
+          <entry key="md" value="480" />
+          <entry key="py" value="8826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
+          <entry key="Markdown" value="480" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="8811" />
+          <entry key="Python" value="8826" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#81#104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save/param/param.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -86,21 +96,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#82#105#0" expanded="true" />
-                <marker date="1543770849113" expanded="true" signature="7642:7643" ph="..." />
+                <marker date="1543786900719" expanded="true" signature="7572:7573" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="1548">
+              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
               </folding>
@@ -109,10 +119,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="342">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -120,12 +142,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="378">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding>
-                <marker date="1543780729644" expanded="true" signature="1541:1546" ph="..." />
-                <marker date="1543780729644" expanded="true" signature="2581:2582" ph="..." />
-                <marker date="1543780729644" expanded="true" signature="4784:4785" ph="..." />
+                <element signature="e#81#104#0" expanded="true" />
+                <marker date="1543786843028" expanded="true" signature="1540:1545" ph="..." />
+                <marker date="1543786843028" expanded="true" signature="2580:2581" ph="..." />
+                <marker date="1543786843028" expanded="true" signature="4783:4784" ph="..." />
               </folding>
             </state>
           </provider>
@@ -134,12 +157,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/recommend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#80#93#0" expanded="true" />
-                <marker date="1543783232139" expanded="true" signature="1565:1886" ph="..." />
-                <marker date="1543783232139" expanded="true" signature="1940:1945" ph="..." />
+                <marker date="1543785979938" expanded="true" signature="1565:1886" ph="..." />
+                <marker date="1543785979938" expanded="true" signature="1940:1945" ph="..." />
               </folding>
             </state>
           </provider>
@@ -148,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="198">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="e#81#100#0" expanded="true" />
               </folding>
@@ -182,15 +205,16 @@
         <option value="$PROJECT_DIR$/Deep_CF/see.py" />
         <option value="$PROJECT_DIR$/Deep_CF/test.py" />
         <option value="$PROJECT_DIR$/save/param/param.json" />
-        <option value="$PROJECT_DIR$/Deep_CF/train.py" />
         <option value="$PROJECT_DIR$/Deep_CF/eval.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/inference.py" />
         <option value="$PROJECT_DIR$/features/rating.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/utils.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/Config.py" />
-        <option value="$PROJECT_DIR$/features/recommend.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/preprocess.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Deep_CF/run.py" />
+        <option value="$PROJECT_DIR$/features/recommend.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/utils.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/inference.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/Config.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/preprocess.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/train.py" />
       </list>
     </option>
   </component>
@@ -200,11 +224,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="width" value="1630" />
     <option name="height" value="1715" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -220,18 +245,7 @@
             <path>
               <item name="CS6140_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS6140_project" type="462c0819:PsiDirectoryNode" />
-              <item name="Deep_CF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS6140_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS6140_project" type="462c0819:PsiDirectoryNode" />
               <item name="save" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS6140_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS6140_project" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-              <item name="matrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.recommend">
+  <component name="RunManager" selected="Python.run">
     <configuration name="MF (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS6140_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,8 +400,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.recommend" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.recommend" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.MF (1)" />
@@ -418,13 +432,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.29893237" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.29893237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save/param/param.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deep_CF/eval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -609,57 +617,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save/matrix/user.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save/matrix/item.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/recommend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding>
-            <element signature="e#80#93#0" expanded="true" />
-            <marker date="1543783232139" expanded="true" signature="1565:1886" ph="..." />
-            <marker date="1543783232139" expanded="true" signature="1940:1945" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/save/matrix/user.csv" />
+    <entry file="file://$PROJECT_DIR$/save/matrix/item.csv" />
     <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="342">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1543780729644" expanded="true" signature="1541:1546" ph="..." />
-            <marker date="1543780729644" expanded="true" signature="2581:2582" ph="..." />
-            <marker date="1543780729644" expanded="true" signature="4784:4785" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deep_CF/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="198">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="e#81#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
+    <entry file="file://$PROJECT_DIR$/features/recommend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="216">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#80#93#0" expanded="true" />
+            <marker date="1543785979938" expanded="true" signature="1565:1886" ph="..." />
+            <marker date="1543785979938" expanded="true" signature="1940:1945" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+            <marker date="1543786843028" expanded="true" signature="1540:1545" ph="..." />
+            <marker date="1543786843028" expanded="true" signature="2580:2581" ph="..." />
+            <marker date="1543786843028" expanded="true" signature="4783:4784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
           <folding>
             <element signature="e#81#104#0" expanded="true" />
           </folding>
@@ -668,22 +683,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#82#105#0" expanded="true" />
-            <marker date="1543770849113" expanded="true" signature="7642:7643" ph="..." />
+            <marker date="1543786900719" expanded="true" signature="7572:7573" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
+    <entry file="file://$PROJECT_DIR$/save/param/param.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>

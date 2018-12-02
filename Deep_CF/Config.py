@@ -13,7 +13,6 @@ job_max = 21
 movie_id_max = 3952
 movie_categories_max = 19
 movie_title_max = 5216
-combiner = "sum"
 sentences_size = 15
 window_sizes = {2, 3, 4, 5}
 filter_num = 8

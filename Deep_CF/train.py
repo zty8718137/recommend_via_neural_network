@@ -5,8 +5,8 @@
    Created on 11/15/2018
 '''
 import tensorflow as tf
-from Deep_CF.inference import *
-from Deep_CF.utils import *
+from Deep_CF.inference import get_inputs, graph_inf
+from Deep_CF.utils import get_batches
 from sklearn.model_selection import train_test_split
 import numpy as np
 import datetime
@@ -86,6 +86,6 @@ def train(X, y):
             if prev_loss > np.mean(test_loss) or epoch_i <= 5:
                 prev_loss = np.mean(test_loss)
                 saver.save(sess, save_dir + model_name)
-            else : break
+            else: break
         print('Model Trained and Saved')
 

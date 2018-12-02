@@ -7,9 +7,6 @@
 import pandas as pd
 import re
 from Deep_CF.utils import save_rating_history
-from Deep_CF.Config import *
-import pickle
-import numpy as np
 
 def load_data():
     """
