@@ -28,6 +28,6 @@ show_every_n_batches = 20
 fc_layer1_num = 128
 fc_layer2_num = 16
 save_dir = "../save/model/"
-model_name = "model_test.ckpt"
+model_name = "model.ckpt"
 data_dir = "../save/matrix/"
 top_k = 20
