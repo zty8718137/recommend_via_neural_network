@@ -25,12 +25,12 @@ def get_tensors(loaded_graph):
     movie_categories = loaded_graph.get_tensor_by_name("movie_categories:0")
     movie_titles = loaded_graph.get_tensor_by_name("movie_titles:0")
     targets = loaded_graph.get_tensor_by_name("targets:0")
-
-    # Method 1
-    #inference = loaded_graph.get_tensor_by_name("inference/inference/BiasAdd:0")
-
-    # Method 2
-    inference = loaded_graph.get_tensor_by_name("inference/ExpandDims:0")
+    if user_item_concat == "concat":
+        # Method 1
+        inference = loaded_graph.get_tensor_by_name("inference/inference/BiasAdd:0")
+    elif user_item_concat == "mf":
+        # Method 2
+        inference = loaded_graph.get_tensor_by_name("inference/ExpandDims:0")
 
     movie_combine_layer_flat = loaded_graph.get_tensor_by_name("movie_fc/Reshape:0")
     user_combine_layer_flat = loaded_graph.get_tensor_by_name("user_fc/Reshape:0")

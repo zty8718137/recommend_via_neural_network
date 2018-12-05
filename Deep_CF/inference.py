@@ -127,27 +127,23 @@ def graph_inf(uid, user_gender, user_age, user_job, movie_id, movie_categories, 
     movie_combine_layer, movie_combine_layer_flat = get_movie_feature_layer(movie_id_embed_layer,
                                                                             movie_categories_embed_layer,
                                                                             dropout_layer)
+    if user_item_concat == "concat":
     # Method 1 : Concatenate two features into one long vec
-    # with tf.name_scope("inference"):
-    #     inference_layer = tf.concat([user_combine_layer_flat, movie_combine_layer_flat], 1)
-    #     inference_1 = tf.layers.dense(inference_layer, fc_layer1_num,
-    #                                   activation=tf.nn.relu,
-    #                                 kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-    #                                 kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
-    #                                 name="fc_1")
-    #     inference_2 = tf.layers.dense(inference_1, fc_layer2_num,
-    #                                   activation=tf.nn.relu,
-    #                                kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-    #                                kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
-    #                                name="fc_2")
-    #     inference = tf.layers.dense(inference_2, 1,
-    #                                 activation=tf.nn.relu,
-    #                                 kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-    #                                 kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
-    #                                 name="inference")
-
-    # Method 2 : Implement matrix multiplication
-    with tf.name_scope("inference"):
-        inference = tf.reduce_sum(user_combine_layer_flat * movie_combine_layer_flat, axis=1)
-        inference = tf.expand_dims(inference, axis=1)
+        with tf.name_scope("inference"):
+            inference_layer = tf.concat([user_combine_layer_flat, movie_combine_layer_flat], 1)
+            inference_1 = tf.layers.dense(inference_layer, fc_layer1_num,
+                                          activation=tf.nn.relu,
+                                        kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                        kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
+                                        name="fc_1")
+            inference = tf.layers.dense(inference_1, 1,
+                                        activation=tf.nn.relu,
+                                        kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                        kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
+                                        name="inference")
+    elif user_item_concat == "mf":
+        # Method 2 : Implement matrix multiplication
+        with tf.name_scope("inference"):
+            inference = tf.reduce_sum(user_combine_layer_flat * movie_combine_layer_flat, axis=1)
+            inference = tf.expand_dims(inference, axis=1)
     return inference

@@ -19,6 +19,7 @@ filter_num = 8
 dropout_keep_prob = 0.5
 reg_rate = 0.00001
 K = 256
+user_item_concat = "mf"
 
 #Config for training
 num_epochs = 10
@@ -26,7 +27,7 @@ batch_size = 256
 learning_rate = 0.001
 show_every_n_batches = 20
 fc_layer1_num = 128
-fc_layer2_num = 16
+#fc_layer2_num = 16
 save_dir = "../save/model/"
 model_name = "model.ckpt"
 data_dir = "../save/matrix/"
