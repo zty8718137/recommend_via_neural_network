@@ -17,7 +17,7 @@ sentences_size = 15
 window_sizes = {2, 3, 4, 5}
 filter_num = 8
 dropout_keep_prob = 0.5
-reg_rate = 0.00001
+reg_rate = 0.0001
 K = 256
 user_item_concat = "mf"
 

@@ -133,9 +133,9 @@ def graph_inf(uid, user_gender, user_age, user_job, movie_id, movie_categories, 
             inference_layer = tf.concat([user_combine_layer_flat, movie_combine_layer_flat], 1)
             inference_1 = tf.layers.dense(inference_layer, fc_layer1_num,
                                           activation=tf.nn.relu,
-                                        kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
-                                        kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
-                                        name="fc_1")
+                                          kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),
+                                          kernel_regularizer=tf.contrib.layers.l2_regularizer(reg_rate),
+                                          name="fc_1")
             inference = tf.layers.dense(inference_1, 1,
                                         activation=tf.nn.relu,
                                         kernel_initializer=tf.truncated_normal_initializer(stddev=0.01),

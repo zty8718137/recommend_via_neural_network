@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d391659d-4451-44d7-ba49-41fd155bfb86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deep_CF/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/Config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deep_CF/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deep_CF/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/matrix/movie_matrix.p" beforeDir="false" afterPath="$PROJECT_DIR$/save/matrix/movie_matrix.p" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/matrix/user_matrix.p" beforeDir="false" afterPath="$PROJECT_DIR$/save/matrix/user_matrix.p" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/checkpoint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_mul.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_mul.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_mul.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_test.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_test.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model_test.ckpt.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +23,7 @@
     <SUITE FILE_PATH="coverage/CS6140_project$MF.coverage" NAME="MF Coverage Results" MODIFIED="1541991796391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS6140_project$train.coverage" NAME="train Coverage Results" MODIFIED="1543257679136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$CF.coverage" NAME="CF Coverage Results" MODIFIED="1542938035916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
-    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1543987496234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
+    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1544035936662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$MF__1_.coverage" NAME="MF (1) Coverage Results" MODIFIED="1542938322617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
     <SUITE FILE_PATH="coverage/CS6140_project$recommend.coverage" NAME="recommend Coverage Results" MODIFIED="1543783232165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
   </component>
@@ -79,15 +70,16 @@
           <entry key="dummy" value="17" />
           <entry key="json" value="1" />
           <entry key="md" value="480" />
-          <entry key="py" value="8951" />
+          <entry key="py" value="8965" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="480" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="8951" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="8965" />
         </counts>
       </usages-collector>
     </session>
@@ -97,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="224">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
               </folding>
@@ -106,14 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="147" column="57" lean-forward="true" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
+            <state relative-caret-position="400">
+              <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
               <folding>
                 <element signature="e#82#105#0" expanded="true" />
-                <marker date="1544020276502" expanded="true" signature="7572:7573" ph="..." />
+                <marker date="1544029154249" expanded="true" signature="7572:7573" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="540">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -143,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1234">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="382">
+              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
                 <marker date="1544020276478" expanded="true" signature="1625:1630" ph="..." />
@@ -190,9 +182,9 @@
         <option value="$PROJECT_DIR$/features/recommend.py" />
         <option value="$PROJECT_DIR$/Deep_CF/preprocess.py" />
         <option value="$PROJECT_DIR$/Deep_CF/train.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/Config.py" />
         <option value="$PROJECT_DIR$/Deep_CF/utils.py" />
         <option value="$PROJECT_DIR$/Deep_CF/inference.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/Config.py" />
       </list>
     </option>
   </component>
@@ -202,10 +194,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1630" />
-    <option name="height" value="1715" />
+    <option name="height" value="1700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -397,6 +388,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541711609821</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1544020296244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544020296244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -412,18 +411,18 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18137652" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18137652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.29893237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.29893237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50121456" side_tool="true" weight="0.29893237" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -463,6 +462,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ml-1m/README">
@@ -642,6 +645,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+            <marker date="1544020276478" expanded="true" signature="1625:1630" ph="..." />
+            <marker date="1544020276478" expanded="true" signature="2665:2666" ph="..." />
+            <marker date="1544020276478" expanded="true" signature="4868:4869" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-371">
@@ -652,44 +678,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
+    <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1234">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="400">
+          <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
           <folding>
-            <element signature="e#81#104#0" expanded="true" />
-            <marker date="1544020276478" expanded="true" signature="1625:1630" ph="..." />
-            <marker date="1544020276478" expanded="true" signature="2665:2666" ph="..." />
-            <marker date="1544020276478" expanded="true" signature="4868:4869" ph="..." />
+            <element signature="e#82#105#0" expanded="true" />
+            <marker date="1544029154249" expanded="true" signature="7572:7573" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="147" column="57" lean-forward="true" selection-start-line="147" selection-start-column="57" selection-end-line="147" selection-end-column="57" />
-          <folding>
-            <element signature="e#82#105#0" expanded="true" />
-            <marker date="1544020276502" expanded="true" signature="7572:7573" ph="..." />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
