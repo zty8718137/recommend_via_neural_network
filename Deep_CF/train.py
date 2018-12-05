@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import datetime
 from Deep_CF.Config import *
+import os
 
 def train(X, y):
     train_graph = tf.Graph()
@@ -26,6 +27,13 @@ def train(X, y):
         saver = tf.train.Saver()
     prev_loss = float("inf")
     with tf.Session(graph=train_graph) as sess:
+        # Create Tensorboard
+        tensorboard_dir = '../tensorboard/'
+        if not os.path.exists(tensorboard_dir):
+            os.makedirs(tensorboard_dir)
+        writer = tf.summary.FileWriter(tensorboard_dir)
+        writer.add_graph(sess.graph)
+        # Begin training
         tf.global_variables_initializer().run()
         for epoch_i in range(num_epochs):
             train_batch = get_batches(train_X, train_y, batch_size)
@@ -83,9 +91,9 @@ def train(X, y):
                 _, step, training_loss = sess.run([train_op, global_step, loss_no_reg], feed_dict=feed_test)
                 test_loss.append(training_loss)
             print("At epoch %d, validation loss is %g" % (epoch_i, np.mean(test_loss)))
+            # Train model for at least 5 epochs. Stop training if loss does not reduce.
             if prev_loss > np.mean(test_loss) or epoch_i <= 5:
                 prev_loss = np.mean(test_loss)
                 saver.save(sess, save_dir + model_name)
             else: break
         print('Model Trained and Saved')
-

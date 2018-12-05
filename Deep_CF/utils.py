@@ -37,27 +37,6 @@ def get_tensors(loaded_graph):
     loss = loaded_graph.get_tensor_by_name("loss:0")
     return uid, user_gender, user_age, user_job, movie_id, movie_categories, movie_titles, targets, inference, movie_combine_layer_flat, user_combine_layer_flat, loss
 
-def rating_movie(userid, movieid, users, movies):
-    loaded_graph = tf.Graph()
-    with tf.Session(graph=loaded_graph) as sess:
-        loader = tf.train.import_meta_graph(save_dir + model_name + '.meta')
-        loader.restore(sess, save_dir + model_name)
-        uid, user_gender, user_age, user_job, movie_id, movie_categories, movie_titles, targets, inference, movie_combine_layer_flat, user_combine_layer_flat = get_tensors(loaded_graph)  # loaded_graph
-        user_info = users[users["UserID"] == userid].values
-        movie_info = movies[movies["MovieID"] == movieid].values
-
-        feed = {
-            uid: np.reshape(userid, [1, 1]),
-            user_gender: np.reshape(user_info[1], [1, 1]),
-            user_age: np.reshape(user_info[2], [1, 1]),
-            user_job: np.reshape(user_info[3], [1, 1]),
-            movie_id: np.reshape(movieid, [1, 1]),
-            movie_categories: movie_info[2],  # x.take(6,1)
-            movie_titles: movie_info[1],  # x.take(5,1)
-        }
-        inf = sess.run([inference], feed)
-        return inf
-
 def save_movie_feature(movies):
     loaded_graph = tf.Graph()
     movie_matrix = np.zeros([movie_id_max, K])

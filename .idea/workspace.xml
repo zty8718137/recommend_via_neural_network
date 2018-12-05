@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d391659d-4451-44d7-ba49-41fd155bfb86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensorboard/graph.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deep_CF/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/Config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deep_CF/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_CF/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_CF/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_CF/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_CF/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/matrix/movie_matrix.p" beforeDir="false" afterPath="$PROJECT_DIR$/save/matrix/movie_matrix.p" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/matrix/user_matrix.p" beforeDir="false" afterPath="$PROJECT_DIR$/save/matrix/user_matrix.p" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/model/model.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/save/model/model.ckpt.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
     <SUITE FILE_PATH="coverage/CS6140_project$MF.coverage" NAME="MF Coverage Results" MODIFIED="1541991796391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS6140_project$train.coverage" NAME="train Coverage Results" MODIFIED="1543257679136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$CF.coverage" NAME="CF Coverage Results" MODIFIED="1542938035916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
-    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1544035936662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
+    <SUITE FILE_PATH="coverage/CS6140_project$run.coverage" NAME="run Coverage Results" MODIFIED="1544045002350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep_CF" />
     <SUITE FILE_PATH="coverage/CS6140_project$MF__1_.coverage" NAME="MF (1) Coverage Results" MODIFIED="1542938322617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CF_MF" />
     <SUITE FILE_PATH="coverage/CS6140_project$recommend.coverage" NAME="recommend Coverage Results" MODIFIED="1543783232165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
   </component>
@@ -31,17 +32,17 @@
     <session id="207591777">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3789" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,17 +53,17 @@
           <entry key="dat" value="6" />
           <entry key="json" value="7" />
           <entry key="md" value="1" />
-          <entry key="png" value="9" />
-          <entry key="py" value="51" />
+          <entry key="png" value="10" />
+          <entry key="py" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="9" />
+          <entry key="Image" value="10" />
           <entry key="JSON" value="7" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,7 +71,7 @@
           <entry key="dummy" value="17" />
           <entry key="json" value="1" />
           <entry key="md" value="480" />
-          <entry key="py" value="8965" />
+          <entry key="py" value="9292" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
@@ -79,7 +80,7 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="480" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="8965" />
+          <entry key="Python" value="9292" />
         </counts>
       </usages-collector>
     </session>
@@ -89,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
               </folding>
@@ -101,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+            <state relative-caret-position="-2278">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#82#105#0" expanded="true" />
                 <marker date="1544029154249" expanded="true" signature="7572:7573" ph="..." />
@@ -114,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-371">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="116">
+              <caret line="93" column="87" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
               </folding>
@@ -123,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="360">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,13 +136,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+            <state relative-caret-position="684">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#81#104#0" expanded="true" />
-                <marker date="1544020276478" expanded="true" signature="1625:1630" ph="..." />
-                <marker date="1544020276478" expanded="true" signature="2665:2666" ph="..." />
-                <marker date="1544020276478" expanded="true" signature="4868:4869" ph="..." />
+                <marker date="1544047112036" expanded="true" signature="1607:1608" ph="..." />
+                <marker date="1544047112036" expanded="true" signature="3810:3811" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/recommend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-806">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#80#93#0" expanded="true" />
+                <marker date="1543785979938" expanded="true" signature="1565:1886" ph="..." />
+                <marker date="1543785979938" expanded="true" signature="1940:1945" ph="..." />
               </folding>
             </state>
           </provider>
@@ -178,13 +192,13 @@
         <option value="$PROJECT_DIR$/Deep_CF/eval.py" />
         <option value="$PROJECT_DIR$/features/rating.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Deep_CF/run.py" />
         <option value="$PROJECT_DIR$/features/recommend.py" />
         <option value="$PROJECT_DIR$/Deep_CF/preprocess.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/train.py" />
-        <option value="$PROJECT_DIR$/Deep_CF/utils.py" />
         <option value="$PROJECT_DIR$/Deep_CF/inference.py" />
         <option value="$PROJECT_DIR$/Deep_CF/Config.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/run.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/train.py" />
+        <option value="$PROJECT_DIR$/Deep_CF/utils.py" />
       </list>
     </option>
   </component>
@@ -194,7 +208,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1630" />
     <option name="height" value="1700" />
   </component>
@@ -212,11 +226,6 @@
               <item name="CS6140_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS6140_project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CS6140_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS6140_project" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -230,11 +239,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zty87\PycharmProjects\CS6140_project\tensorboard" />
+      <recent name="C:\Users\zty87\PycharmProjects\CS6140_project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zty87\PycharmProjects\CS6140_project\CF&amp;MF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zty87\PycharmProjects\CS6140_project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544020296244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1544039596436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544039596436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -409,14 +426,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18137652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18461539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.29893237" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" visible="true" weight="0.29893237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,6 +649,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorboard/graph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#82#105#0" expanded="true" />
+            <marker date="1544029154249" expanded="true" signature="7572:7573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="93" column="87" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#81#104#0" expanded="true" />
+            <marker date="1544047112036" expanded="true" signature="1607:1608" ph="..." />
+            <marker date="1544047112036" expanded="true" signature="3810:3811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/recommend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-806">
@@ -642,57 +711,6 @@
             <marker date="1543785979938" expanded="true" signature="1565:1886" ph="..." />
             <marker date="1543785979938" expanded="true" signature="1940:1945" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-            <marker date="1544020276478" expanded="true" signature="1625:1630" ph="..." />
-            <marker date="1544020276478" expanded="true" signature="2665:2666" ph="..." />
-            <marker date="1544020276478" expanded="true" signature="4868:4869" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#81#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
-          <folding>
-            <element signature="e#82#105#0" expanded="true" />
-            <marker date="1544029154249" expanded="true" signature="7572:7573" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_CF/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
