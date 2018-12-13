@@ -19,7 +19,7 @@ def main():
 
     M = max(np.max(Y_train["UserID"]), np.max(Y_test["UserID"])).astype(int)  # users
     N = max(np.max(Y_train["MovieID"]), np.max(Y_test["MovieID"])).astype(int)  # movies
-    Ks = [10, 20, 30, 50, 100]
+    Ks = [8,16,32,64,128,256,512]
     Y_train = np.array(Y_train)
     Y_test = np.array(Y_test)
     regs = [10 ** -4, 10 ** -3, 10 ** -2, 10 ** -1, 1]

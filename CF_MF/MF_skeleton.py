@@ -30,7 +30,7 @@ def train_model(M, N, K, eta, reg, Y, eps=0.0001, max_epochs=300):
         error_new = get_err(U, V, Y, reg)
         print("epoch:", epoch+1, ", error:", error_new)
         if epoch == 0: error_1 = error_new
-        if epoch == 1: delta_0_1 = error_1 - error_new
+        if epoch == 1: delta_0_1 = np.abs(error_1 - error_new)
         delta_i = error - error_new
         if epoch > 1 and delta_i / delta_0_1 < eps:
             break

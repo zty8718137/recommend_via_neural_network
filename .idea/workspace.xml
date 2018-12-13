@@ -204,9 +204,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="1630" />
-    <option name="height" value="1700" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1585" />
+    <option name="width" value="1628" />
+    <option name="height" value="1715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
